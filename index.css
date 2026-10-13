@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    background: orange;
+    background-image: url(paperbg.jpg), url(standing.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#content {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+margin: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    width: 1100px;
+}
+
+#aboutsection {
+    width: 700px;
+    display: flex;
+}
+
+#faceimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#issuesection {
+    display: flex;
+    align-items: stretch;
+    color:white;
+}
+
+div.issuecover {
+    background: black;
+    height: 300px;
+    width: 200px;
+    margin: 40px;
+}
+
+#linksection {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin: 50px;
+}
+
+p.platformlinks {
+font-size: 25px;
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
+
+p.platformlinks:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
